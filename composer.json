@@ -1,0 +1,21 @@
+{
+    "name": "tak-solder/data-class",
+    "description": "data class for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tak-solder",
+            "email": "tak.solder@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TakSolder\\DataClass\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "illuminate/contracts": "^6.0"
+    }
+}
